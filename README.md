@@ -1,4 +1,6 @@
 # DataBias
+This project was done for the class Intro To Human Centered Data Science, at the University of Texas at Austin.
+
 Hypothesis - Perspective API is more likely to make mistakes on toxic comments that use words that are less common in insults
 
 I created separate dataframes out of the original dataset given. I used Perspective API to find the toxicity values for the values of each dataframes. After examining the scores of these dataframes of original data, I determined the threshold for toxicity to be 0.56; anything above this value is toxic.
